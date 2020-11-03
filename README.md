@@ -1,5 +1,6 @@
 # Gossip_Simulator
-<Gossip Algorithm for information propagation> The Gossip algorithm involves the following:
+# Gossip Algorithm
+  The Gossip algorithm involves the following:
 
 • Starting: A participant(actor) it told/sent a roumor(fact) by the main process
 
@@ -7,7 +8,7 @@
 
 • Termination: Each actor keeps track of rumors and how many times it has heard the rumor. It stops transmitting once it has heard the rumor 10 times (10 is arbitrary, you can select other values).
 
-<Push-Sum algorithm for sum computation>
+# Push-Sum algorithm for sum computation
 
 • State: Each actor Ai maintains two quantities: s and w. Initially, s = xi = i (that is actor number i has value i, play with other distribution if you so desire) and w = 1
 
@@ -21,7 +22,8 @@
 
 • Termination: If an actors ratio ws did not change more than 10−10 in 3 consecutive rounds the actor terminates. WARNING: the values s and w independently never converge, only the ratio does.
 
-<Topologies> The actual network topology plays a critical role in the dissemi- nation speed of Gossip protocols. As part of this project you have to experiment with various topologies. The topology determines who is considered a neighboor in the above algorithms.
+# Topologies 
+The actual network topology plays a critical role in the dissemi- nation speed of Gossip protocols. As part of this project you have to experiment with various topologies. The topology determines who is considered a neighboor in the above algorithms.
 
 • Full Network Every actor is a neighbor of all other actors. That is, every actor can talk directly to any other actor.
 
