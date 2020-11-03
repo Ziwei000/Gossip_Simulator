@@ -1,0 +1,11 @@
+#I __SOURCE_DIRECTORY__
+#r "packages/akka/1.4.10/lib/netstandard2.0/Akka.dll"
+#r "packages/akka.fsharp/1.4.10/lib/netstandard2.0/Akka.FSharp.dll"
+#r "packages/fspickler/5.3.2/lib/net45/FsPickler.dll"
+#r "packages/newtonsoft.json/12.0.3/lib/net45/Newtonsoft.Json.dll"
+#r "packages/akka.persistence/1.4.10/lib/netstandard2.0/Akka.Persistence.dll"
+#r "packages/akka.persistence.fsharp/1.4.10/lib/netstandard2.0/Akka.Persistence.FSharp.dll"
+#r "packages/google.protocolbuffers/2.4.1.555/lib/net40/Google.ProtocolBuffers.dll"
+#r "packages/google.protocolbuffers/2.4.1.555/lib/net40/Google.ProtocolBuffers.Serialization.dll"
+#r "packages/system.configuration.configurationmanager/4.7.0/lib/netstandard2.0/System.Configuration.ConfigurationManager.dll"
+#r "packages/akka.testkit/1.4.10/lib/netstandard2.0/Akka.TestKit.dll"
